@@ -119,4 +119,13 @@ a.email-link {
     /* text-decoration: underline; */
     text-shadow: 0 0 10px rgba(2, 150, 255, 0.5);
     /* box-shadow: inset 0 0 10px rgba(224, 119, 13, 0.5); */
-  }
+}
+
+.certifications a {
+    text-decoration: none;
+    color: rgb(35, 178, 68);
+}
+
+.certifications a:hover {
+    text-shadow: 0 0 10px rgba(35, 178, 68, 0.5);
+}
