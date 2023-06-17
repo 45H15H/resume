@@ -129,3 +129,7 @@ a.email-link {
 .certifications a:hover {
     text-shadow: 0 0 10px rgba(35, 178, 68, 0.5);
 }
+
+.badge-base {
+    width: 200px;
+  }
