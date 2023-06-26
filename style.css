@@ -6,13 +6,6 @@ body {
     padding: 20px;
 }
 
-.badge {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 1rem, 1rem;
-}
-
 @media (max-width: 600px) {
     body {
       font-size: 14px;
