@@ -93,8 +93,9 @@ body {
     }
 
     .badge {
-        padding: 9px 10px;
+        padding: 5px 5px 5px 5px;
         margin-bottom: 10px;
+        margin-top: 16px;
         font-size: 0.4rem;
         font-weight: 600;
         text-transform: uppercase;
@@ -102,6 +103,7 @@ body {
         display: inline-block;
         line-height: 1;
         text-align: center;
+        justify-content: center;
         white-space: nowrap;
         vertical-align: baseline;
         border-radius: 0.25rem;
@@ -110,8 +112,9 @@ body {
     }
 
     .badge-non {
-        padding: 9px 10px 9px 0px;
+        padding: 5px 5px 5px 0px;
         margin-bottom: 10px;
+        margin-top: 16px;
         font-size: 0.4rem;
         font-weight: 600;
         text-transform: uppercase;
