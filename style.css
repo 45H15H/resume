@@ -198,7 +198,7 @@ h1, h2, h3 {
 }
 
 .contact-info p {
-    margin: 10px 0;
+    margin: 10px 0px 0px;
     /* white-space: nowrap; */
     /* display: inline-flex; */
 }
