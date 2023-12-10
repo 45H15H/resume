@@ -129,6 +129,9 @@ body {
         font-family: 'Poppins', sans-serif;
     }
 
+    .night-mode {
+        display: none;
+    }
 }
 
 h1 {
