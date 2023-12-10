@@ -2,6 +2,7 @@
 <html>
 	<head>
 		<link href="style.css" rel="stylesheet">
+		<link rel="stylesheet" href="dark-theme.css" id="dark-theme-style" disabled>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 		<link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,9 +16,28 @@
 			})(window, document, "clarity", "script", "hwne1cclth");
 		</script>
 		
+		<script>
+		document.addEventListener('DOMContentLoaded', (event) => {
+  			document.getElementById('theme-toggle').addEventListener('change', function() {
+    			var darkThemeStyle = document.getElementById('dark-theme-style');
+    			if (darkThemeStyle.disabled) {
+      				darkThemeStyle.disabled = false;
+    			} else {
+      				darkThemeStyle.disabled = true;
+   				}
+  			});
+		});
+		</script>
 	</head>
 	
 	<body>
+		<div class="night-mode">
+			<label for="theme-toggle" class="dark-label">Dark Mode</label>
+			<label class="switch">
+				<input id="theme-toggle" type="checkbox" />
+				<span class="slider round"></span>
+			</label>
+		</div>
 		<header id="header">
 			<!-- resume header with your name and title -->
 			<h1>ASHISH <b>SINGH</b></h1>
